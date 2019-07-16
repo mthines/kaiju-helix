@@ -1,0 +1,2659 @@
+{
+ "data" : {
+  "device" : 2162944,
+  "device_version" : 0,
+  "meta" : {
+   "application" : "Helix Native",
+   "appversion" : 24117248,
+   "build_sha" : "",
+   "modifieddate" : 1558470190,
+   "name" : "Base - Acoustic"
+  },
+  "tone" : {
+   "controller" : {
+    "dsp0" : {
+     "block0" : {
+      "Drive" : {
+       "@controller" : 19,
+       "@max" : 1.0,
+       "@min" : 0.0
+      }
+     },
+     "block1" : {
+      "CloseThreshold" : {
+       "@controller" : 19,
+       "@max" : 0.0,
+       "@min" : -96.0
+      },
+      "OpenThreshold" : {
+       "@controller" : 19,
+       "@max" : 0.0,
+       "@min" : -96.0
+      }
+     },
+     "block2" : {
+      "Pedal" : {
+       "@controller" : 1,
+       "@max" : 1.0,
+       "@min" : 0.0
+      }
+     },
+     "block3" : {
+      "Pedal" : {
+       "@controller" : 1,
+       "@max" : 1.0,
+       "@min" : 0.0
+      }
+     },
+     "block4" : {
+      "Hi Gain" : {
+       "@controller" : 19,
+       "@max" : 30.0,
+       "@min" : -60.0
+      },
+      "Lo Gain" : {
+       "@controller" : 19,
+       "@max" : 30.0,
+       "@min" : -60.0
+      },
+      "Mid Gain" : {
+       "@controller" : 19,
+       "@max" : 30.0,
+       "@min" : -60.0
+      }
+     },
+     "block5" : {
+      "Emphasis" : {
+       "@controller" : 19,
+       "@max" : 1.0,
+       "@min" : 0.0
+      },
+      "Gain" : {
+       "@controller" : 19,
+       "@max" : 1.0,
+       "@min" : 0.0
+      },
+      "Level" : {
+       "@controller" : 19,
+       "@max" : 12.0,
+       "@min" : -120.0
+      },
+      "Mix" : {
+       "@controller" : 19,
+       "@max" : 1.0,
+       "@min" : 0.0
+      },
+      "PeakReduction" : {
+       "@controller" : 19,
+       "@max" : 1.0,
+       "@min" : 0.0
+      }
+     },
+     "block6" : {
+      "Threshold" : {
+       "@controller" : 19,
+       "@max" : 0.0,
+       "@min" : -96.0
+      }
+     },
+     "block7" : {
+      "Drive" : {
+       "@controller" : 19,
+       "@max" : 1.0,
+       "@min" : 0.0
+      },
+      "Master" : {
+       "@controller" : 19,
+       "@max" : 1.0,
+       "@min" : 0.0
+      }
+     },
+     "block8" : {
+      "ChVol" : {
+       "@controller" : 19,
+       "@max" : 1.0,
+       "@min" : 0.0
+      },
+      "Drive" : {
+       "@controller" : 19,
+       "@max" : 1.0,
+       "@min" : 0.0
+      },
+      "Master" : {
+       "@controller" : 19,
+       "@max" : 1.0,
+       "@min" : 0.0
+      }
+     },
+     "join" : {
+      "A Level" : {
+       "@controller" : 19,
+       "@max" : 12.0,
+       "@min" : -60.0
+      },
+      "B Level" : {
+       "@controller" : 19,
+       "@max" : 12.0,
+       "@min" : -60.0
+      }
+     }
+    },
+    "dsp1" : {
+     "block0" : {
+      "Balance" : {
+       "@controller" : 19,
+       "@max" : 1.0,
+       "@min" : 0.0
+      },
+      "Width" : {
+       "@controller" : 19,
+       "@max" : 1.0,
+       "@min" : 0.0
+      }
+     },
+     "block1" : {
+      "HighFreq" : {
+       "@controller" : 19,
+       "@max" : 18000.0,
+       "@min" : 500.0
+      },
+      "HighGain" : {
+       "@controller" : 19,
+       "@max" : 12.0,
+       "@min" : -12.0
+      },
+      "LowFreq" : {
+       "@controller" : 19,
+       "@max" : 495.0,
+       "@min" : 20.0
+      },
+      "LowGain" : {
+       "@controller" : 19,
+       "@max" : 12.0,
+       "@min" : -12.0
+      },
+      "MidFreq" : {
+       "@controller" : 19,
+       "@max" : 8000.0,
+       "@min" : 125.0
+      },
+      "MidGain" : {
+       "@controller" : 19,
+       "@max" : 12.0,
+       "@min" : -12.0
+      }
+     },
+     "block2" : {
+      "HighCut" : {
+       "@controller" : 19,
+       "@max" : 20100.0,
+       "@min" : 500.0
+      },
+      "Level" : {
+       "@controller" : 19,
+       "@max" : 6.0,
+       "@min" : -60.0
+      },
+      "LowCut" : {
+       "@controller" : 19,
+       "@max" : 500.0,
+       "@min" : 19.90
+      },
+      "Mix" : {
+       "@controller" : 19,
+       "@max" : 1.0,
+       "@min" : 0.0
+      }
+     },
+     "block3" : {
+      "Threshold" : {
+       "@controller" : 19,
+       "@max" : 0.0,
+       "@min" : -100.0
+      }
+     },
+     "block4" : {
+      "Mix" : {
+       "@controller" : 19,
+       "@max" : 1.0,
+       "@min" : 0.0
+      }
+     },
+     "block5" : {
+      "Feedback" : {
+       "@controller" : 19,
+       "@max" : 1.0,
+       "@min" : 0.0
+      },
+      "Mix" : {
+       "@controller" : 19,
+       "@max" : 1.0,
+       "@min" : 0.0
+      },
+      "WowFlutter" : {
+       "@controller" : 19,
+       "@max" : 1.0,
+       "@min" : 0.0
+      }
+     },
+     "block6" : {
+      "Decay" : {
+       "@controller" : 19,
+       "@max" : 1.0,
+       "@min" : 0.0
+      },
+      "Mix" : {
+       "@controller" : 19,
+       "@max" : 1.0,
+       "@min" : 0.0
+      },
+      "Predelay" : {
+       "@controller" : 19,
+       "@max" : 0.20,
+       "@min" : 0.0
+      }
+     }
+    }
+   },
+   "dsp0" : {
+    "block0" : {
+     "@enabled" : false,
+     "@model" : "HD2_DistDerangedMaster",
+     "@path" : 1,
+     "@position" : 6,
+     "@stereo" : false,
+     "@type" : 0,
+     "Bass" : 0.650,
+     "Drive" : 0.50,
+     "Level" : 0.0,
+     "Treble" : 0.450
+    },
+    "block1" : {
+     "@enabled" : true,
+     "@model" : "HD2_GateHardGate",
+     "@path" : 0,
+     "@position" : 0,
+     "@stereo" : false,
+     "@type" : 0,
+     "CloseThreshold" : -78.0,
+     "Decay" : 0.1020,
+     "HoldTime" : 0.010,
+     "Level" : -0.0999985,
+     "OpenThreshold" : -76.0
+    },
+    "block2" : {
+     "@enabled" : false,
+     "@model" : "HD2_VolPanVol",
+     "@path" : 0,
+     "@position" : 1,
+     "@stereo" : false,
+     "@type" : 0,
+     "Pedal" : 1.0,
+     "VolumeTaper" : true
+    },
+    "block3" : {
+     "@enabled" : false,
+     "@model" : "HD2_PitchPitchWham",
+     "@path" : 0,
+     "@position" : 2,
+     "@stereo" : false,
+     "@type" : 0,
+     "Heel" : -24,
+     "Level" : 0.0,
+     "Mix" : 1.0,
+     "Pedal" : 1.0,
+     "Toe" : 0
+    },
+    "block4" : {
+     "@enabled" : true,
+     "@model" : "HD2_Compressor3BandComp",
+     "@path" : 0,
+     "@position" : 3,
+     "@stereo" : false,
+     "@type" : 0,
+     "Attack" : 0.0350,
+     "Detector" : true,
+     "Hi Gain" : 2.10,
+     "Hi Thresh" : -37.0,
+     "Hi X Freq" : 3000.0,
+     "Level" : 2.0,
+     "Lo Gain" : 3.80,
+     "Lo Thresh" : -38.0,
+     "Lo X Freq" : 400.0,
+     "Mid Gain" : 2.30,
+     "Mid Thresh" : -36.0,
+     "Ratio" : 1,
+     "Release" : 0.20
+    },
+    "block5" : {
+     "@enabled" : true,
+     "@model" : "HD2_CompressorLAStudioComp",
+     "@path" : 0,
+     "@position" : 4,
+     "@stereo" : false,
+     "@type" : 0,
+     "Emphasis" : 0.090,
+     "Gain" : 0.60,
+     "Level" : 0.0,
+     "Mix" : 0.10,
+     "PeakReduction" : 0.240,
+     "Type" : false
+    },
+    "block6" : {
+     "@enabled" : true,
+     "@model" : "HD2_GateNoiseGate",
+     "@path" : 0,
+     "@position" : 5,
+     "@stereo" : false,
+     "@type" : 0,
+     "Decay" : 0.0779999,
+     "Level" : 0.0,
+     "Threshold" : -45.0
+    },
+    "block7" : {
+     "@bypassvolume" : 1.0,
+     "@enabled" : false,
+     "@model" : "HD2_AmpArchetypeLead",
+     "@path" : 0,
+     "@position" : 6,
+     "@type" : 1,
+     "Bass" : 0.60,
+     "Bias" : 0.50,
+     "BiasX" : 0.50,
+     "ChVol" : 0.750,
+     "Depth" : 0.382973,
+     "Drive" : 0.140,
+     "Hum" : 0.50,
+     "Master" : 0.50,
+     "Mid" : 0.560,
+     "Presence" : 0.720,
+     "Ripple" : 0.50,
+     "Sag" : 0.50,
+     "Treble" : 0.70
+    },
+    "block8" : {
+     "@bypassvolume" : 1.0,
+     "@enabled" : false,
+     "@model" : "HD2_AmpLine6Litigator",
+     "@path" : 0,
+     "@position" : 7,
+     "@type" : 1,
+     "Bass" : 0.450,
+     "Bias" : 0.490,
+     "BiasX" : 0.510,
+     "ChVol" : 1.0,
+     "Drive" : 0.0,
+     "Hum" : 0.50,
+     "Master" : 1.0,
+     "Mid" : 0.590,
+     "Presence" : 0.80,
+     "Ripple" : 0.240,
+     "Sag" : 0.50,
+     "Treble" : 0.560
+    },
+    "inputA" : {
+     "@input" : 1,
+     "@model" : "HD2_AppDSPFlow1Input",
+     "decay" : 0.20,
+     "noiseGate" : true,
+     "threshold" : -65.0
+    },
+    "inputB" : {
+     "@input" : 0,
+     "@model" : "HD2_AppDSPFlow2Input",
+     "decay" : 0.50,
+     "noiseGate" : false,
+     "threshold" : -48.0
+    },
+    "join" : {
+     "@enabled" : true,
+     "@model" : "HD2_AppDSPFlowJoin",
+     "@position" : 4,
+     "A Level" : 0.0,
+     "A Pan" : 0.50,
+     "B Level" : 0.0,
+     "B Pan" : 0.50,
+     "B Polarity" : false,
+     "Level" : 0.0
+    },
+    "outputA" : {
+     "@model" : "HD2_AppDSPFlowOutput",
+     "@output" : 2,
+     "gain" : 0.0,
+     "pan" : 0.50
+    },
+    "outputB" : {
+     "@model" : "HD2_AppDSPFlowOutput",
+     "@output" : 0,
+     "gain" : 0.0,
+     "pan" : 0.50
+    },
+    "split" : {
+     "@enabled" : true,
+     "@model" : "HD2_AppDSPFlowSplitY",
+     "@position" : 4,
+     "BalanceA" : 0.50,
+     "BalanceB" : 0.50,
+     "bypass" : false
+    }
+   },
+   "dsp1" : {
+    "block0" : {
+     "@enabled" : true,
+     "@model" : "HD2_VolPanStereoWidth",
+     "@path" : 0,
+     "@position" : 7,
+     "@type" : 0,
+     "Balance" : 0.50,
+     "LR In Swap" : false,
+     "Level" : 0.0,
+     "R Polarity" : false,
+     "Width" : 1.0
+    },
+    "block1" : {
+     "@enabled" : true,
+     "@model" : "HD2_EQParametric",
+     "@path" : 0,
+     "@position" : 0,
+     "@stereo" : false,
+     "@type" : 0,
+     "HighCut" : 12000.0,
+     "HighFreq" : 2500.0,
+     "HighGain" : 6.20,
+     "HighQ" : 0.7070,
+     "Level" : 0.0,
+     "LowCut" : 19.90,
+     "LowFreq" : 82.0,
+     "LowGain" : 2.20,
+     "LowQ" : 0.7070,
+     "MidFreq" : 1500.0,
+     "MidGain" : 6.0,
+     "MidQ" : 0.7070
+    },
+    "block10" : {
+     "@enabled" : false,
+     "@model" : "HD2_ReverbPlate",
+     "@path" : 1,
+     "@position" : 7,
+     "@trails" : true,
+     "@type" : 7,
+     "Decay" : 0.340,
+     "HighCut" : 4570.0,
+     "Level" : 4.60,
+     "LowCut" : 90.0,
+     "Mix" : 0.250,
+     "Predelay" : 0.0150
+    },
+    "block2" : {
+     "@enabled" : true,
+     "@model" : "HD2_ImpulseResponse2048",
+     "@path" : 0,
+     "@position" : 4,
+     "@type" : 5,
+     "HighCut" : 14000.0,
+     "Index" : 13,
+     "Level" : 0.0,
+     "LowCut" : 70.0,
+     "Mix" : 0.10
+    },
+    "block3" : {
+     "@enabled" : false,
+     "@model" : "HD2_CompressorAutoSwell",
+     "@path" : 0,
+     "@position" : 1,
+     "@stereo" : false,
+     "@type" : 0,
+     "Attack" : 0.4980,
+     "Decay" : 0.0590,
+     "Level" : 0.0,
+     "Rel Offset" : 5.0,
+     "Taper" : false,
+     "Threshold" : -64.0
+    },
+    "block4" : {
+     "@enabled" : false,
+     "@model" : "HD2_Chorus70sChorus",
+     "@path" : 0,
+     "@position" : 2,
+     "@stereo" : false,
+     "@type" : 0,
+     "ChorusIntensity" : 0.150,
+     "Headroom" : 5.80,
+     "Level" : -0.0999985,
+     "Mix" : 0.350,
+     "Mode" : false,
+     "Spread" : 0.0,
+     "Stereo" : false,
+     "SyncSelect1" : 6,
+     "SyncSelect2" : 6,
+     "TempoSync1" : false,
+     "TempoSync2" : false,
+     "VibratoDepth" : 0.50,
+     "VibratoRate" : 0.480
+    },
+    "block5" : {
+     "@enabled" : false,
+     "@model" : "HD2_DelayTransistorTape",
+     "@path" : 0,
+     "@position" : 3,
+     "@stereo" : false,
+     "@trails" : true,
+     "@type" : 7,
+     "Feedback" : 0.580,
+     "Headroom" : 0.0,
+     "Level" : 0.0,
+     "Mix" : 0.250,
+     "Scale" : 1.0,
+     "Spread" : 0.290,
+     "SyncSelect1" : 6,
+     "TempoSync1" : true,
+     "Time" : 0.5070,
+     "WowFlutter" : 0.260
+    },
+    "block6" : {
+     "@enabled" : true,
+     "@model" : "HD2_ReverbSearchlights",
+     "@path" : 0,
+     "@position" : 6,
+     "@stereo" : true,
+     "@trails" : true,
+     "@type" : 7,
+     "Decay" : 0.260,
+     "HighCut" : 5000.0,
+     "Intensity" : 0.420,
+     "Level" : 0.0,
+     "LowCut" : 19.90,
+     "Mix" : 0.020,
+     "Modulation" : 0.140,
+     "Predelay" : 0.0370,
+     "Speed" : 0.10,
+     "Spread" : 1.0
+    },
+    "block7" : {
+     "@enabled" : true,
+     "@model" : "HD2_GateNoiseGate",
+     "@path" : 1,
+     "@position" : 0,
+     "@stereo" : false,
+     "@type" : 0,
+     "Decay" : 0.50,
+     "Level" : 0.0,
+     "Threshold" : -70.0
+    },
+    "block8" : {
+     "@enabled" : true,
+     "@model" : "HD2_CompressorLAStudioComp",
+     "@path" : 1,
+     "@position" : 1,
+     "@stereo" : false,
+     "@type" : 0,
+     "Emphasis" : 0.090,
+     "Gain" : 0.70,
+     "Level" : -18.40,
+     "Mix" : 1.0,
+     "PeakReduction" : 0.780,
+     "Type" : false
+    },
+    "block9" : {
+     "@enabled" : false,
+     "@model" : "HD2_DelayDualDelay",
+     "@path" : 1,
+     "@position" : 4,
+     "@trails" : true,
+     "@type" : 7,
+     "Depth" : 0.350,
+     "HighCut" : 8200.0,
+     "Left Time" : 0.3750,
+     "LeftFeedback" : 0.190,
+     "Level" : 0.0,
+     "LowCut" : 120.0,
+     "MixL" : 0.160,
+     "MixR" : 0.0,
+     "ModulationMode" : 0,
+     "Right Time" : 0.50,
+     "RightFeedback" : 0.0,
+     "Speed" : 0.050,
+     "Spread" : 0.0,
+     "SyncSelect1" : 6,
+     "SyncSelect2" : 6,
+     "TempoSync1" : true,
+     "TempoSync2" : true
+    },
+    "inputA" : {
+     "@input" : 0,
+     "@model" : "HD2_AppDSPFlow1Input",
+     "decay" : 0.50,
+     "noiseGate" : false,
+     "threshold" : -48.0
+    },
+    "inputB" : {
+     "@input" : 0,
+     "@model" : "HD2_AppDSPFlow2Input",
+     "decay" : 0.50,
+     "noiseGate" : false,
+     "threshold" : -48.0
+    },
+    "join" : {
+     "@enabled" : true,
+     "@model" : "HD2_AppDSPFlowJoin",
+     "@position" : 8,
+     "A Level" : 0.0,
+     "A Pan" : 0.50,
+     "B Level" : 0.0,
+     "B Pan" : 0.50,
+     "B Polarity" : false,
+     "Level" : 0.0
+    },
+    "outputA" : {
+     "@model" : "HD2_AppDSPFlowOutput",
+     "@output" : 1,
+     "gain" : 0.0,
+     "pan" : 0.50
+    },
+    "outputB" : {
+     "@model" : "HD2_AppDSPFlowOutput",
+     "@output" : 1,
+     "gain" : 0.0,
+     "pan" : 0.50
+    },
+    "split" : {
+     "@enabled" : true,
+     "@model" : "HD2_AppDSPFlowSplitY",
+     "@position" : 0,
+     "BalanceA" : 0.50,
+     "BalanceB" : 0.50,
+     "bypass" : false
+    }
+   },
+   "footswitch" : {
+    "dsp0" : {
+     "block3" : {
+      "@fs_enabled" : true,
+      "@fs_index" : 3,
+      "@fs_label" : "Pitch Wham",
+      "@fs_ledcolor" : 3277055,
+      "@fs_momentary" : false
+     },
+     "block5" : {
+      "@fs_enabled" : false,
+      "@fs_index" : 11,
+      "@fs_label" : "LA Studio Comp",
+      "@fs_ledcolor" : 527360,
+      "@fs_momentary" : false
+     }
+    },
+    "dsp1" : {
+     "block0" : {
+      "@fs_enabled" : false,
+      "@fs_index" : 5,
+      "@fs_label" : "1 Switch Looper",
+      "@fs_ledcolor" : 462860,
+      "@fs_momentary" : false
+     },
+     "block3" : {
+      "@fs_enabled" : false,
+      "@fs_index" : 2,
+      "@fs_label" : "Autoswell",
+      "@fs_ledcolor" : 527360,
+      "@fs_momentary" : false
+     },
+     "block4" : {
+      "@fs_enabled" : true,
+      "@fs_index" : 9,
+      "@fs_label" : "70s Chorus",
+      "@fs_ledcolor" : 13055,
+      "@fs_momentary" : false
+     },
+     "block5" : {
+      "@fs_enabled" : false,
+      "@fs_index" : 10,
+      "@fs_label" : "Transistor Tape",
+      "@fs_ledcolor" : 67840,
+      "@fs_momentary" : false
+     },
+     "block9" : {
+      "@fs_enabled" : false,
+      "@fs_index" : 1,
+      "@fs_label" : "Dual Delay",
+      "@fs_ledcolor" : 67840,
+      "@fs_momentary" : false
+     }
+    }
+   },
+   "global" : {
+    "@current_snapshot" : 6,
+    "@cursor_dsp" : 1,
+    "@cursor_group" : "block2",
+    "@guitarinputZ" : 0,
+    "@model" : "@global_params",
+    "@pedalstate" : 1,
+    "@tempo" : 147.0,
+    "@topology0" : "SABJ",
+    "@topology1" : "AB",
+    "@variax_customtuning" : true,
+    "@variax_lockctrls" : 0,
+    "@variax_magmode" : true,
+    "@variax_model" : 5,
+    "@variax_str1tuning" : -5,
+    "@variax_str2tuning" : -4,
+    "@variax_str3tuning" : -5,
+    "@variax_str4tuning" : -5,
+    "@variax_str5tuning" : -7,
+    "@variax_str6tuning" : -5,
+    "@variax_toneknob" : -0.10,
+    "@variax_volumeknob" : -0.10
+   },
+   "snapshot0" : {
+    "@ledcolor" : 8,
+    "@name" : "Rb",
+    "@pedalstate" : 2,
+    "@tempo" : 68.5127,
+    "@valid" : true,
+    "blocks" : {
+     "dsp0" : {
+      "block0" : false,
+      "block1" : true,
+      "block2" : false,
+      "block3" : false,
+      "block4" : true,
+      "block5" : true,
+      "block6" : true,
+      "block7" : false,
+      "block8" : true,
+      "split" : true
+     },
+     "dsp1" : {
+      "block0" : false,
+      "block1" : true,
+      "block10" : false,
+      "block2" : true,
+      "block3" : false,
+      "block4" : true,
+      "block5" : true,
+      "block6" : true,
+      "block7" : true,
+      "block8" : true,
+      "block9" : false
+     }
+    },
+    "controllers" : {
+     "dsp0" : {
+      "block0" : {
+       "Drive" : {
+        "@fs_enabled" : false,
+        "@value" : 0.50
+       }
+      },
+      "block1" : {
+       "CloseThreshold" : {
+        "@fs_enabled" : false,
+        "@value" : -78.0
+       },
+       "OpenThreshold" : {
+        "@fs_enabled" : false,
+        "@value" : -76.0
+       }
+      },
+      "block2" : {
+       "Pedal" : {
+        "@fs_enabled" : false,
+        "@value" : 1.0
+       }
+      },
+      "block3" : {
+       "Pedal" : {
+        "@fs_enabled" : false,
+        "@value" : 1.0
+       }
+      },
+      "block4" : {
+       "Hi Gain" : {
+        "@fs_enabled" : false,
+        "@value" : 2.10
+       },
+       "Lo Gain" : {
+        "@fs_enabled" : false,
+        "@value" : 3.80
+       },
+       "Mid Gain" : {
+        "@fs_enabled" : false,
+        "@value" : 2.30
+       }
+      },
+      "block5" : {
+       "Emphasis" : {
+        "@fs_enabled" : false,
+        "@value" : 0.090
+       },
+       "Gain" : {
+        "@fs_enabled" : false,
+        "@value" : 0.60
+       },
+       "Level" : {
+        "@fs_enabled" : false,
+        "@value" : 0.0
+       },
+       "Mix" : {
+        "@fs_enabled" : false,
+        "@value" : 0.10
+       },
+       "PeakReduction" : {
+        "@fs_enabled" : false,
+        "@value" : 0.240
+       }
+      },
+      "block6" : {
+       "Threshold" : {
+        "@fs_enabled" : false,
+        "@value" : -45.0
+       }
+      },
+      "block7" : {
+       "Drive" : {
+        "@fs_enabled" : false,
+        "@value" : 0.140
+       },
+       "Master" : {
+        "@fs_enabled" : false,
+        "@value" : 0.50
+       }
+      },
+      "block8" : {
+       "ChVol" : {
+        "@fs_enabled" : false,
+        "@value" : 1.0
+       },
+       "Drive" : {
+        "@fs_enabled" : false,
+        "@value" : 0.160
+       },
+       "Master" : {
+        "@fs_enabled" : false,
+        "@value" : 1.0
+       }
+      },
+      "join" : {
+       "A Level" : {
+        "@fs_enabled" : false,
+        "@value" : 0.0
+       },
+       "B Level" : {
+        "@fs_enabled" : false,
+        "@value" : 0.0
+       }
+      }
+     },
+     "dsp1" : {
+      "block0" : {
+       "Balance" : {
+        "@fs_enabled" : false,
+        "@value" : 0.80
+       },
+       "Width" : {
+        "@fs_enabled" : false,
+        "@value" : 0.0
+       }
+      },
+      "block1" : {
+       "HighFreq" : {
+        "@fs_enabled" : false,
+        "@value" : 2500.0
+       },
+       "HighGain" : {
+        "@fs_enabled" : false,
+        "@value" : 6.20
+       },
+       "LowFreq" : {
+        "@fs_enabled" : false,
+        "@value" : 82.0
+       },
+       "LowGain" : {
+        "@fs_enabled" : false,
+        "@value" : 2.20
+       },
+       "MidFreq" : {
+        "@fs_enabled" : false,
+        "@value" : 1500.0
+       },
+       "MidGain" : {
+        "@fs_enabled" : false,
+        "@value" : 6.0
+       }
+      },
+      "block2" : {
+       "HighCut" : {
+        "@fs_enabled" : false,
+        "@value" : 14000.0
+       },
+       "Level" : {
+        "@fs_enabled" : false,
+        "@value" : -18.0
+       },
+       "LowCut" : {
+        "@fs_enabled" : false,
+        "@value" : 70.0
+       },
+       "Mix" : {
+        "@fs_enabled" : false,
+        "@value" : 1.0
+       }
+      },
+      "block3" : {
+       "Threshold" : {
+        "@fs_enabled" : false,
+        "@value" : -64.0
+       }
+      },
+      "block4" : {
+       "Mix" : {
+        "@fs_enabled" : false,
+        "@value" : 0.350
+       }
+      },
+      "block5" : {
+       "Feedback" : {
+        "@fs_enabled" : false,
+        "@value" : 0.580
+       },
+       "Mix" : {
+        "@fs_enabled" : false,
+        "@value" : 0.250
+       },
+       "WowFlutter" : {
+        "@fs_enabled" : false,
+        "@value" : 0.260
+       }
+      },
+      "block6" : {
+       "Decay" : {
+        "@fs_enabled" : false,
+        "@value" : 0.760
+       },
+       "Mix" : {
+        "@fs_enabled" : false,
+        "@value" : 0.210
+       },
+       "Predelay" : {
+        "@fs_enabled" : false,
+        "@value" : 0.0
+       }
+      }
+     }
+    }
+   },
+   "snapshot1" : {
+    "@ledcolor" : 4,
+    "@name" : "Cl",
+    "@pedalstate" : 2,
+    "@tempo" : 68.5127,
+    "@valid" : true,
+    "blocks" : {
+     "dsp0" : {
+      "block0" : true,
+      "block1" : true,
+      "block2" : false,
+      "block3" : false,
+      "block4" : true,
+      "block5" : true,
+      "block6" : true,
+      "block7" : false,
+      "block8" : true,
+      "split" : true
+     },
+     "dsp1" : {
+      "block0" : false,
+      "block1" : true,
+      "block10" : false,
+      "block2" : true,
+      "block3" : false,
+      "block4" : false,
+      "block5" : false,
+      "block6" : true,
+      "block7" : true,
+      "block8" : true,
+      "block9" : false
+     }
+    },
+    "controllers" : {
+     "dsp0" : {
+      "block0" : {
+       "Drive" : {
+        "@fs_enabled" : false,
+        "@value" : 0.450
+       }
+      },
+      "block1" : {
+       "CloseThreshold" : {
+        "@fs_enabled" : false,
+        "@value" : -68.0
+       },
+       "OpenThreshold" : {
+        "@fs_enabled" : false,
+        "@value" : -66.0
+       }
+      },
+      "block2" : {
+       "Pedal" : {
+        "@fs_enabled" : false,
+        "@value" : 1.0
+       }
+      },
+      "block3" : {
+       "Pedal" : {
+        "@fs_enabled" : false,
+        "@value" : 1.0
+       }
+      },
+      "block4" : {
+       "Hi Gain" : {
+        "@fs_enabled" : false,
+        "@value" : 3.50
+       },
+       "Lo Gain" : {
+        "@fs_enabled" : false,
+        "@value" : 1.60
+       },
+       "Mid Gain" : {
+        "@fs_enabled" : false,
+        "@value" : 2.70
+       }
+      },
+      "block5" : {
+       "Emphasis" : {
+        "@fs_enabled" : false,
+        "@value" : 0.090
+       },
+       "Gain" : {
+        "@fs_enabled" : false,
+        "@value" : 0.650
+       },
+       "Level" : {
+        "@fs_enabled" : false,
+        "@value" : 0.0
+       },
+       "Mix" : {
+        "@fs_enabled" : false,
+        "@value" : 0.370
+       },
+       "PeakReduction" : {
+        "@fs_enabled" : false,
+        "@value" : 0.240
+       }
+      },
+      "block6" : {
+       "Threshold" : {
+        "@fs_enabled" : false,
+        "@value" : -40.0
+       }
+      },
+      "block7" : {
+       "Drive" : {
+        "@fs_enabled" : false,
+        "@value" : 0.140
+       },
+       "Master" : {
+        "@fs_enabled" : false,
+        "@value" : 0.50
+       }
+      },
+      "block8" : {
+       "ChVol" : {
+        "@fs_enabled" : false,
+        "@value" : 0.810
+       },
+       "Drive" : {
+        "@fs_enabled" : false,
+        "@value" : 0.20
+       },
+       "Master" : {
+        "@fs_enabled" : false,
+        "@value" : 0.980
+       }
+      },
+      "join" : {
+       "A Level" : {
+        "@fs_enabled" : false,
+        "@value" : 2.0
+       },
+       "B Level" : {
+        "@fs_enabled" : false,
+        "@value" : -8.20
+       }
+      }
+     },
+     "dsp1" : {
+      "block0" : {
+       "Balance" : {
+        "@fs_enabled" : false,
+        "@value" : 0.80
+       },
+       "Width" : {
+        "@fs_enabled" : false,
+        "@value" : 0.0
+       }
+      },
+      "block1" : {
+       "HighFreq" : {
+        "@fs_enabled" : false,
+        "@value" : 2500.0
+       },
+       "HighGain" : {
+        "@fs_enabled" : false,
+        "@value" : 4.60
+       },
+       "LowFreq" : {
+        "@fs_enabled" : false,
+        "@value" : 82.0
+       },
+       "LowGain" : {
+        "@fs_enabled" : false,
+        "@value" : 1.50
+       },
+       "MidFreq" : {
+        "@fs_enabled" : false,
+        "@value" : 1500.0
+       },
+       "MidGain" : {
+        "@fs_enabled" : false,
+        "@value" : 4.20
+       }
+      },
+      "block2" : {
+       "HighCut" : {
+        "@fs_enabled" : false,
+        "@value" : 14000.0
+       },
+       "Level" : {
+        "@fs_enabled" : false,
+        "@value" : -18.0
+       },
+       "LowCut" : {
+        "@fs_enabled" : false,
+        "@value" : 70.0
+       },
+       "Mix" : {
+        "@fs_enabled" : false,
+        "@value" : 1.0
+       }
+      },
+      "block3" : {
+       "Threshold" : {
+        "@fs_enabled" : false,
+        "@value" : -64.0
+       }
+      },
+      "block4" : {
+       "Mix" : {
+        "@fs_enabled" : false,
+        "@value" : 0.350
+       }
+      },
+      "block5" : {
+       "Feedback" : {
+        "@fs_enabled" : false,
+        "@value" : 0.580
+       },
+       "Mix" : {
+        "@fs_enabled" : false,
+        "@value" : 0.250
+       },
+       "WowFlutter" : {
+        "@fs_enabled" : false,
+        "@value" : 0.270
+       }
+      },
+      "block6" : {
+       "Decay" : {
+        "@fs_enabled" : false,
+        "@value" : 0.0599999
+       },
+       "Mix" : {
+        "@fs_enabled" : false,
+        "@value" : 0.090
+       },
+       "Predelay" : {
+        "@fs_enabled" : false,
+        "@value" : 0.0660
+       }
+      }
+     }
+    }
+   },
+   "snapshot2" : {
+    "@ledcolor" : 3,
+    "@name" : "Cr",
+    "@pedalstate" : 1,
+    "@tempo" : 68.5127,
+    "@valid" : true,
+    "blocks" : {
+     "dsp0" : {
+      "block0" : true,
+      "block1" : true,
+      "block2" : false,
+      "block3" : false,
+      "block4" : true,
+      "block5" : true,
+      "block6" : true,
+      "block7" : true,
+      "block8" : false,
+      "split" : true
+     },
+     "dsp1" : {
+      "block0" : false,
+      "block1" : true,
+      "block10" : true,
+      "block2" : true,
+      "block3" : false,
+      "block4" : false,
+      "block5" : false,
+      "block6" : true,
+      "block7" : true,
+      "block8" : true,
+      "block9" : false
+     }
+    },
+    "controllers" : {
+     "dsp0" : {
+      "block0" : {
+       "Drive" : {
+        "@fs_enabled" : false,
+        "@value" : 0.50
+       }
+      },
+      "block1" : {
+       "CloseThreshold" : {
+        "@fs_enabled" : false,
+        "@value" : -68.0
+       },
+       "OpenThreshold" : {
+        "@fs_enabled" : false,
+        "@value" : -66.0
+       }
+      },
+      "block2" : {
+       "Pedal" : {
+        "@fs_enabled" : false,
+        "@value" : 1.0
+       }
+      },
+      "block3" : {
+       "Pedal" : {
+        "@fs_enabled" : false,
+        "@value" : 1.0
+       }
+      },
+      "block4" : {
+       "Hi Gain" : {
+        "@fs_enabled" : false,
+        "@value" : 1.70
+       },
+       "Lo Gain" : {
+        "@fs_enabled" : false,
+        "@value" : 0.700001
+       },
+       "Mid Gain" : {
+        "@fs_enabled" : false,
+        "@value" : 4.40
+       }
+      },
+      "block5" : {
+       "Emphasis" : {
+        "@fs_enabled" : false,
+        "@value" : 0.090
+       },
+       "Gain" : {
+        "@fs_enabled" : false,
+        "@value" : 0.60
+       },
+       "Level" : {
+        "@fs_enabled" : false,
+        "@value" : 0.0
+       },
+       "Mix" : {
+        "@fs_enabled" : false,
+        "@value" : 0.150
+       },
+       "PeakReduction" : {
+        "@fs_enabled" : false,
+        "@value" : 0.240
+       }
+      },
+      "block6" : {
+       "Threshold" : {
+        "@fs_enabled" : false,
+        "@value" : -40.0
+       }
+      },
+      "block7" : {
+       "Drive" : {
+        "@fs_enabled" : false,
+        "@value" : 0.10
+       },
+       "Master" : {
+        "@fs_enabled" : false,
+        "@value" : 0.540
+       }
+      },
+      "block8" : {
+       "ChVol" : {
+        "@fs_enabled" : false,
+        "@value" : 0.760
+       },
+       "Drive" : {
+        "@fs_enabled" : false,
+        "@value" : 0.350
+       },
+       "Master" : {
+        "@fs_enabled" : false,
+        "@value" : 0.830
+       }
+      },
+      "join" : {
+       "A Level" : {
+        "@fs_enabled" : false,
+        "@value" : 0.0
+       },
+       "B Level" : {
+        "@fs_enabled" : false,
+        "@value" : -10.0
+       }
+      }
+     },
+     "dsp1" : {
+      "block0" : {
+       "Balance" : {
+        "@fs_enabled" : false,
+        "@value" : 0.80
+       },
+       "Width" : {
+        "@fs_enabled" : false,
+        "@value" : 0.0
+       }
+      },
+      "block1" : {
+       "HighFreq" : {
+        "@fs_enabled" : false,
+        "@value" : 2500.0
+       },
+       "HighGain" : {
+        "@fs_enabled" : false,
+        "@value" : 4.10
+       },
+       "LowFreq" : {
+        "@fs_enabled" : false,
+        "@value" : 82.0
+       },
+       "LowGain" : {
+        "@fs_enabled" : false,
+        "@value" : 2.80
+       },
+       "MidFreq" : {
+        "@fs_enabled" : false,
+        "@value" : 1800.0
+       },
+       "MidGain" : {
+        "@fs_enabled" : false,
+        "@value" : 3.60
+       }
+      },
+      "block2" : {
+       "HighCut" : {
+        "@fs_enabled" : false,
+        "@value" : 14000.0
+       },
+       "Level" : {
+        "@fs_enabled" : false,
+        "@value" : -18.0
+       },
+       "LowCut" : {
+        "@fs_enabled" : false,
+        "@value" : 70.0
+       },
+       "Mix" : {
+        "@fs_enabled" : false,
+        "@value" : 1.0
+       }
+      },
+      "block3" : {
+       "Threshold" : {
+        "@fs_enabled" : false,
+        "@value" : -64.0
+       }
+      },
+      "block4" : {
+       "Mix" : {
+        "@fs_enabled" : false,
+        "@value" : 0.350
+       }
+      },
+      "block5" : {
+       "Feedback" : {
+        "@fs_enabled" : false,
+        "@value" : 0.580
+       },
+       "Mix" : {
+        "@fs_enabled" : false,
+        "@value" : 0.250
+       },
+       "WowFlutter" : {
+        "@fs_enabled" : false,
+        "@value" : 0.370
+       }
+      },
+      "block6" : {
+       "Decay" : {
+        "@fs_enabled" : false,
+        "@value" : 0.0
+       },
+       "Mix" : {
+        "@fs_enabled" : false,
+        "@value" : 0.0599999
+       },
+       "Predelay" : {
+        "@fs_enabled" : false,
+        "@value" : 0.0660
+       }
+      }
+     }
+    }
+   },
+   "snapshot3" : {
+    "@ledcolor" : 2,
+    "@name" : "Ld",
+    "@pedalstate" : 1,
+    "@tempo" : 68.5127,
+    "@valid" : true,
+    "blocks" : {
+     "dsp0" : {
+      "block0" : true,
+      "block1" : true,
+      "block2" : false,
+      "block3" : true,
+      "block4" : true,
+      "block5" : true,
+      "block6" : true,
+      "block7" : true,
+      "block8" : false,
+      "split" : true
+     },
+     "dsp1" : {
+      "block0" : true,
+      "block1" : true,
+      "block10" : true,
+      "block2" : true,
+      "block3" : false,
+      "block4" : false,
+      "block5" : false,
+      "block6" : true,
+      "block7" : true,
+      "block8" : true,
+      "block9" : false
+     }
+    },
+    "controllers" : {
+     "dsp0" : {
+      "block0" : {
+       "Drive" : {
+        "@fs_enabled" : false,
+        "@value" : 0.580
+       }
+      },
+      "block1" : {
+       "CloseThreshold" : {
+        "@fs_enabled" : false,
+        "@value" : -77.0
+       },
+       "OpenThreshold" : {
+        "@fs_enabled" : false,
+        "@value" : -75.0
+       }
+      },
+      "block2" : {
+       "Pedal" : {
+        "@fs_enabled" : false,
+        "@value" : 1.0
+       }
+      },
+      "block3" : {
+       "Pedal" : {
+        "@fs_enabled" : false,
+        "@value" : 1.0
+       }
+      },
+      "block4" : {
+       "Hi Gain" : {
+        "@fs_enabled" : false,
+        "@value" : -2.0
+       },
+       "Lo Gain" : {
+        "@fs_enabled" : false,
+        "@value" : -2.70
+       },
+       "Mid Gain" : {
+        "@fs_enabled" : false,
+        "@value" : 0.400002
+       }
+      },
+      "block5" : {
+       "Emphasis" : {
+        "@fs_enabled" : false,
+        "@value" : 0.090
+       },
+       "Gain" : {
+        "@fs_enabled" : false,
+        "@value" : 0.650
+       },
+       "Level" : {
+        "@fs_enabled" : false,
+        "@value" : 0.0
+       },
+       "Mix" : {
+        "@fs_enabled" : false,
+        "@value" : 0.20
+       },
+       "PeakReduction" : {
+        "@fs_enabled" : false,
+        "@value" : 0.240
+       }
+      },
+      "block6" : {
+       "Threshold" : {
+        "@fs_enabled" : false,
+        "@value" : -37.0
+       }
+      },
+      "block7" : {
+       "Drive" : {
+        "@fs_enabled" : false,
+        "@value" : 0.160
+       },
+       "Master" : {
+        "@fs_enabled" : false,
+        "@value" : 0.50
+       }
+      },
+      "block8" : {
+       "ChVol" : {
+        "@fs_enabled" : false,
+        "@value" : 0.760
+       },
+       "Drive" : {
+        "@fs_enabled" : false,
+        "@value" : 0.350
+       },
+       "Master" : {
+        "@fs_enabled" : false,
+        "@value" : 0.830
+       }
+      },
+      "join" : {
+       "A Level" : {
+        "@fs_enabled" : false,
+        "@value" : -60.0
+       },
+       "B Level" : {
+        "@fs_enabled" : false,
+        "@value" : 0.0
+       }
+      }
+     },
+     "dsp1" : {
+      "block0" : {
+       "Balance" : {
+        "@fs_enabled" : false,
+        "@value" : 0.80
+       },
+       "Width" : {
+        "@fs_enabled" : false,
+        "@value" : 0.0
+       }
+      },
+      "block1" : {
+       "HighFreq" : {
+        "@fs_enabled" : false,
+        "@value" : 2500.0
+       },
+       "HighGain" : {
+        "@fs_enabled" : false,
+        "@value" : 3.20
+       },
+       "LowFreq" : {
+        "@fs_enabled" : false,
+        "@value" : 82.0
+       },
+       "LowGain" : {
+        "@fs_enabled" : false,
+        "@value" : 3.50
+       },
+       "MidFreq" : {
+        "@fs_enabled" : false,
+        "@value" : 1800.0
+       },
+       "MidGain" : {
+        "@fs_enabled" : false,
+        "@value" : 1.90
+       }
+      },
+      "block2" : {
+       "HighCut" : {
+        "@fs_enabled" : false,
+        "@value" : 14000.0
+       },
+       "Level" : {
+        "@fs_enabled" : false,
+        "@value" : -18.0
+       },
+       "LowCut" : {
+        "@fs_enabled" : false,
+        "@value" : 19.90
+       },
+       "Mix" : {
+        "@fs_enabled" : false,
+        "@value" : 1.0
+       }
+      },
+      "block3" : {
+       "Threshold" : {
+        "@fs_enabled" : false,
+        "@value" : -64.0
+       }
+      },
+      "block4" : {
+       "Mix" : {
+        "@fs_enabled" : false,
+        "@value" : 0.350
+       }
+      },
+      "block5" : {
+       "Feedback" : {
+        "@fs_enabled" : false,
+        "@value" : 0.580
+       },
+       "Mix" : {
+        "@fs_enabled" : false,
+        "@value" : 0.250
+       },
+       "WowFlutter" : {
+        "@fs_enabled" : false,
+        "@value" : 0.270
+       }
+      },
+      "block6" : {
+       "Decay" : {
+        "@fs_enabled" : false,
+        "@value" : 0.0
+       },
+       "Mix" : {
+        "@fs_enabled" : false,
+        "@value" : 0.060
+       },
+       "Predelay" : {
+        "@fs_enabled" : false,
+        "@value" : 0.0510
+       }
+      }
+     }
+    }
+   },
+   "snapshot4" : {
+    "@ledcolor" : 7,
+    "@name" : "Rb Swl",
+    "@pedalstate" : 1,
+    "@tempo" : 102.0,
+    "@valid" : true,
+    "blocks" : {
+     "dsp0" : {
+      "block0" : false,
+      "block1" : true,
+      "block2" : true,
+      "block3" : false,
+      "block4" : true,
+      "block5" : true,
+      "block6" : true,
+      "block7" : false,
+      "block8" : true,
+      "split" : true
+     },
+     "dsp1" : {
+      "block0" : false,
+      "block1" : true,
+      "block10" : false,
+      "block2" : true,
+      "block3" : true,
+      "block4" : true,
+      "block5" : true,
+      "block6" : true,
+      "block7" : true,
+      "block8" : true,
+      "block9" : false
+     }
+    },
+    "controllers" : {
+     "dsp0" : {
+      "block0" : {
+       "Drive" : {
+        "@fs_enabled" : false,
+        "@value" : 0.50
+       }
+      },
+      "block1" : {
+       "CloseThreshold" : {
+        "@fs_enabled" : false,
+        "@value" : -77.0
+       },
+       "OpenThreshold" : {
+        "@fs_enabled" : false,
+        "@value" : -75.0
+       }
+      },
+      "block2" : {
+       "Pedal" : {
+        "@fs_enabled" : false,
+        "@value" : 1.0
+       }
+      },
+      "block3" : {
+       "Pedal" : {
+        "@fs_enabled" : false,
+        "@value" : 1.0
+       }
+      },
+      "block4" : {
+       "Hi Gain" : {
+        "@fs_enabled" : false,
+        "@value" : 3.50
+       },
+       "Lo Gain" : {
+        "@fs_enabled" : false,
+        "@value" : 6.0
+       },
+       "Mid Gain" : {
+        "@fs_enabled" : false,
+        "@value" : 1.90
+       }
+      },
+      "block5" : {
+       "Emphasis" : {
+        "@fs_enabled" : false,
+        "@value" : 0.090
+       },
+       "Gain" : {
+        "@fs_enabled" : false,
+        "@value" : 0.750
+       },
+       "Level" : {
+        "@fs_enabled" : false,
+        "@value" : -9.0
+       },
+       "Mix" : {
+        "@fs_enabled" : false,
+        "@value" : 1.0
+       },
+       "PeakReduction" : {
+        "@fs_enabled" : false,
+        "@value" : 0.890
+       }
+      },
+      "block6" : {
+       "Threshold" : {
+        "@fs_enabled" : false,
+        "@value" : -50.0
+       }
+      },
+      "block7" : {
+       "Drive" : {
+        "@fs_enabled" : false,
+        "@value" : 0.160
+       },
+       "Master" : {
+        "@fs_enabled" : false,
+        "@value" : 0.50
+       }
+      },
+      "block8" : {
+       "ChVol" : {
+        "@fs_enabled" : false,
+        "@value" : 1.0
+       },
+       "Drive" : {
+        "@fs_enabled" : false,
+        "@value" : 0.050
+       },
+       "Master" : {
+        "@fs_enabled" : false,
+        "@value" : 1.0
+       }
+      },
+      "join" : {
+       "A Level" : {
+        "@fs_enabled" : false,
+        "@value" : 0.0
+       },
+       "B Level" : {
+        "@fs_enabled" : false,
+        "@value" : 0.0
+       }
+      }
+     },
+     "dsp1" : {
+      "block0" : {
+       "Balance" : {
+        "@fs_enabled" : false,
+        "@value" : 0.80
+       },
+       "Width" : {
+        "@fs_enabled" : false,
+        "@value" : 0.0
+       }
+      },
+      "block1" : {
+       "HighFreq" : {
+        "@fs_enabled" : false,
+        "@value" : 2500.0
+       },
+       "HighGain" : {
+        "@fs_enabled" : false,
+        "@value" : 4.40
+       },
+       "LowFreq" : {
+        "@fs_enabled" : false,
+        "@value" : 82.0
+       },
+       "LowGain" : {
+        "@fs_enabled" : false,
+        "@value" : -0.50
+       },
+       "MidFreq" : {
+        "@fs_enabled" : false,
+        "@value" : 1500.0
+       },
+       "MidGain" : {
+        "@fs_enabled" : false,
+        "@value" : 4.50
+       }
+      },
+      "block2" : {
+       "HighCut" : {
+        "@fs_enabled" : false,
+        "@value" : 14000.0
+       },
+       "Level" : {
+        "@fs_enabled" : false,
+        "@value" : -18.0
+       },
+       "LowCut" : {
+        "@fs_enabled" : false,
+        "@value" : 70.0
+       },
+       "Mix" : {
+        "@fs_enabled" : false,
+        "@value" : 1.0
+       }
+      },
+      "block3" : {
+       "Threshold" : {
+        "@fs_enabled" : false,
+        "@value" : -64.0
+       }
+      },
+      "block4" : {
+       "Mix" : {
+        "@fs_enabled" : false,
+        "@value" : 0.610
+       }
+      },
+      "block5" : {
+       "Feedback" : {
+        "@fs_enabled" : false,
+        "@value" : 0.630
+       },
+       "Mix" : {
+        "@fs_enabled" : false,
+        "@value" : 0.180
+       },
+       "WowFlutter" : {
+        "@fs_enabled" : false,
+        "@value" : 0.170
+       }
+      },
+      "block6" : {
+       "Decay" : {
+        "@fs_enabled" : false,
+        "@value" : 0.880
+       },
+       "Mix" : {
+        "@fs_enabled" : false,
+        "@value" : 0.360
+       },
+       "Predelay" : {
+        "@fs_enabled" : false,
+        "@value" : 0.0
+       }
+      }
+     }
+    }
+   },
+   "snapshot5" : {
+    "@ledcolor" : 10,
+    "@name" : "Ld Swl",
+    "@pedalstate" : 1,
+    "@tempo" : 68.5127,
+    "@valid" : true,
+    "blocks" : {
+     "dsp0" : {
+      "block0" : true,
+      "block1" : true,
+      "block2" : true,
+      "block3" : false,
+      "block4" : true,
+      "block5" : true,
+      "block6" : true,
+      "block7" : true,
+      "block8" : false,
+      "split" : true
+     },
+     "dsp1" : {
+      "block0" : false,
+      "block1" : true,
+      "block10" : true,
+      "block2" : true,
+      "block3" : true,
+      "block4" : false,
+      "block5" : true,
+      "block6" : true,
+      "block7" : true,
+      "block8" : true,
+      "block9" : false
+     }
+    },
+    "controllers" : {
+     "dsp0" : {
+      "block0" : {
+       "Drive" : {
+        "@fs_enabled" : false,
+        "@value" : 0.580
+       }
+      },
+      "block1" : {
+       "CloseThreshold" : {
+        "@fs_enabled" : false,
+        "@value" : -77.0
+       },
+       "OpenThreshold" : {
+        "@fs_enabled" : false,
+        "@value" : -75.0
+       }
+      },
+      "block2" : {
+       "Pedal" : {
+        "@fs_enabled" : false,
+        "@value" : 1.0
+       }
+      },
+      "block3" : {
+       "Pedal" : {
+        "@fs_enabled" : false,
+        "@value" : 1.0
+       }
+      },
+      "block4" : {
+       "Hi Gain" : {
+        "@fs_enabled" : false,
+        "@value" : -2.0
+       },
+       "Lo Gain" : {
+        "@fs_enabled" : false,
+        "@value" : 6.0
+       },
+       "Mid Gain" : {
+        "@fs_enabled" : false,
+        "@value" : 2.30
+       }
+      },
+      "block5" : {
+       "Emphasis" : {
+        "@fs_enabled" : false,
+        "@value" : 0.880
+       },
+       "Gain" : {
+        "@fs_enabled" : false,
+        "@value" : 0.740
+       },
+       "Level" : {
+        "@fs_enabled" : false,
+        "@value" : -1.50
+       },
+       "Mix" : {
+        "@fs_enabled" : false,
+        "@value" : 1.0
+       },
+       "PeakReduction" : {
+        "@fs_enabled" : false,
+        "@value" : 0.190
+       }
+      },
+      "block6" : {
+       "Threshold" : {
+        "@fs_enabled" : false,
+        "@value" : -47.0
+       }
+      },
+      "block7" : {
+       "Drive" : {
+        "@fs_enabled" : false,
+        "@value" : 0.160
+       },
+       "Master" : {
+        "@fs_enabled" : false,
+        "@value" : 0.50
+       }
+      },
+      "block8" : {
+       "ChVol" : {
+        "@fs_enabled" : false,
+        "@value" : 0.760
+       },
+       "Drive" : {
+        "@fs_enabled" : false,
+        "@value" : 0.350
+       },
+       "Master" : {
+        "@fs_enabled" : false,
+        "@value" : 0.830
+       }
+      },
+      "join" : {
+       "A Level" : {
+        "@fs_enabled" : false,
+        "@value" : 0.0
+       },
+       "B Level" : {
+        "@fs_enabled" : false,
+        "@value" : -4.20
+       }
+      }
+     },
+     "dsp1" : {
+      "block0" : {
+       "Balance" : {
+        "@fs_enabled" : false,
+        "@value" : 0.80
+       },
+       "Width" : {
+        "@fs_enabled" : false,
+        "@value" : 0.0
+       }
+      },
+      "block1" : {
+       "HighFreq" : {
+        "@fs_enabled" : false,
+        "@value" : 2500.0
+       },
+       "HighGain" : {
+        "@fs_enabled" : false,
+        "@value" : 3.30
+       },
+       "LowFreq" : {
+        "@fs_enabled" : false,
+        "@value" : 82.0
+       },
+       "LowGain" : {
+        "@fs_enabled" : false,
+        "@value" : 3.30
+       },
+       "MidFreq" : {
+        "@fs_enabled" : false,
+        "@value" : 1500.0
+       },
+       "MidGain" : {
+        "@fs_enabled" : false,
+        "@value" : 1.90
+       }
+      },
+      "block2" : {
+       "HighCut" : {
+        "@fs_enabled" : false,
+        "@value" : 14000.0
+       },
+       "Level" : {
+        "@fs_enabled" : false,
+        "@value" : -18.0
+       },
+       "LowCut" : {
+        "@fs_enabled" : false,
+        "@value" : 70.0
+       },
+       "Mix" : {
+        "@fs_enabled" : false,
+        "@value" : 1.0
+       }
+      },
+      "block3" : {
+       "Threshold" : {
+        "@fs_enabled" : false,
+        "@value" : -50.0
+       }
+      },
+      "block4" : {
+       "Mix" : {
+        "@fs_enabled" : false,
+        "@value" : 0.350
+       }
+      },
+      "block5" : {
+       "Feedback" : {
+        "@fs_enabled" : false,
+        "@value" : 0.580
+       },
+       "Mix" : {
+        "@fs_enabled" : false,
+        "@value" : 0.20
+       },
+       "WowFlutter" : {
+        "@fs_enabled" : false,
+        "@value" : 0.190
+       }
+      },
+      "block6" : {
+       "Decay" : {
+        "@fs_enabled" : false,
+        "@value" : 0.790
+       },
+       "Mix" : {
+        "@fs_enabled" : false,
+        "@value" : 0.20
+       },
+       "Predelay" : {
+        "@fs_enabled" : false,
+        "@value" : 0.000300050
+       }
+      }
+     }
+    }
+   },
+   "snapshot6" : {
+    "@ledcolor" : 8,
+    "@name" : "Acoustic",
+    "@pedalstate" : 2,
+    "@tempo" : 68.5127,
+    "@valid" : true,
+    "blocks" : {
+     "dsp0" : {
+      "block0" : false,
+      "block1" : true,
+      "block2" : false,
+      "block3" : false,
+      "block4" : true,
+      "block5" : true,
+      "block6" : true,
+      "block7" : false,
+      "block8" : false,
+      "split" : true
+     },
+     "dsp1" : {
+      "block0" : true,
+      "block1" : true,
+      "block10" : false,
+      "block2" : true,
+      "block3" : false,
+      "block4" : false,
+      "block5" : false,
+      "block6" : true,
+      "block7" : true,
+      "block8" : true,
+      "block9" : false
+     }
+    },
+    "controllers" : {
+     "dsp0" : {
+      "block0" : {
+       "Drive" : {
+        "@fs_enabled" : false,
+        "@value" : 0.50
+       }
+      },
+      "block1" : {
+       "CloseThreshold" : {
+        "@fs_enabled" : false,
+        "@value" : -78.0
+       },
+       "OpenThreshold" : {
+        "@fs_enabled" : false,
+        "@value" : -76.0
+       }
+      },
+      "block2" : {
+       "Pedal" : {
+        "@fs_enabled" : false,
+        "@value" : 1.0
+       }
+      },
+      "block3" : {
+       "Pedal" : {
+        "@fs_enabled" : false,
+        "@value" : 1.0
+       }
+      },
+      "block4" : {
+       "Hi Gain" : {
+        "@fs_enabled" : false,
+        "@value" : 2.10
+       },
+       "Lo Gain" : {
+        "@fs_enabled" : false,
+        "@value" : 3.80
+       },
+       "Mid Gain" : {
+        "@fs_enabled" : false,
+        "@value" : 2.30
+       }
+      },
+      "block5" : {
+       "Emphasis" : {
+        "@fs_enabled" : false,
+        "@value" : 0.090
+       },
+       "Gain" : {
+        "@fs_enabled" : false,
+        "@value" : 0.60
+       },
+       "Level" : {
+        "@fs_enabled" : false,
+        "@value" : 0.0
+       },
+       "Mix" : {
+        "@fs_enabled" : false,
+        "@value" : 0.10
+       },
+       "PeakReduction" : {
+        "@fs_enabled" : false,
+        "@value" : 0.240
+       }
+      },
+      "block6" : {
+       "Threshold" : {
+        "@fs_enabled" : false,
+        "@value" : -45.0
+       }
+      },
+      "block7" : {
+       "Drive" : {
+        "@fs_enabled" : false,
+        "@value" : 0.140
+       },
+       "Master" : {
+        "@fs_enabled" : false,
+        "@value" : 0.50
+       }
+      },
+      "block8" : {
+       "ChVol" : {
+        "@fs_enabled" : false,
+        "@value" : 1.0
+       },
+       "Drive" : {
+        "@fs_enabled" : false,
+        "@value" : 0.0
+       },
+       "Master" : {
+        "@fs_enabled" : false,
+        "@value" : 1.0
+       }
+      },
+      "join" : {
+       "A Level" : {
+        "@fs_enabled" : false,
+        "@value" : 0.0
+       },
+       "B Level" : {
+        "@fs_enabled" : false,
+        "@value" : 0.0
+       }
+      }
+     },
+     "dsp1" : {
+      "block0" : {
+       "Balance" : {
+        "@fs_enabled" : false,
+        "@value" : 0.50
+       },
+       "Width" : {
+        "@fs_enabled" : false,
+        "@value" : 1.0
+       }
+      },
+      "block1" : {
+       "HighFreq" : {
+        "@fs_enabled" : false,
+        "@value" : 2500.0
+       },
+       "HighGain" : {
+        "@fs_enabled" : false,
+        "@value" : 6.20
+       },
+       "LowFreq" : {
+        "@fs_enabled" : false,
+        "@value" : 82.0
+       },
+       "LowGain" : {
+        "@fs_enabled" : false,
+        "@value" : 2.20
+       },
+       "MidFreq" : {
+        "@fs_enabled" : false,
+        "@value" : 1500.0
+       },
+       "MidGain" : {
+        "@fs_enabled" : false,
+        "@value" : 6.0
+       }
+      },
+      "block2" : {
+       "HighCut" : {
+        "@fs_enabled" : false,
+        "@value" : 14000.0
+       },
+       "Level" : {
+        "@fs_enabled" : false,
+        "@value" : 0.0
+       },
+       "LowCut" : {
+        "@fs_enabled" : false,
+        "@value" : 70.0
+       },
+       "Mix" : {
+        "@fs_enabled" : false,
+        "@value" : 0.10
+       }
+      },
+      "block3" : {
+       "Threshold" : {
+        "@fs_enabled" : false,
+        "@value" : -64.0
+       }
+      },
+      "block4" : {
+       "Mix" : {
+        "@fs_enabled" : false,
+        "@value" : 0.350
+       }
+      },
+      "block5" : {
+       "Feedback" : {
+        "@fs_enabled" : false,
+        "@value" : 0.580
+       },
+       "Mix" : {
+        "@fs_enabled" : false,
+        "@value" : 0.250
+       },
+       "WowFlutter" : {
+        "@fs_enabled" : false,
+        "@value" : 0.260
+       }
+      },
+      "block6" : {
+       "Decay" : {
+        "@fs_enabled" : false,
+        "@value" : 0.260
+       },
+       "Mix" : {
+        "@fs_enabled" : false,
+        "@value" : 0.020
+       },
+       "Predelay" : {
+        "@fs_enabled" : false,
+        "@value" : 0.0370
+       }
+      }
+     }
+    }
+   },
+   "snapshot7" : {
+    "@ledcolor" : 2,
+    "@name" : "Ld Cmp Hg",
+    "@pedalstate" : 1,
+    "@tempo" : 68.5127,
+    "@valid" : true,
+    "blocks" : {
+     "dsp0" : {
+      "block0" : true,
+      "block1" : true,
+      "block2" : false,
+      "block3" : true,
+      "block4" : true,
+      "block5" : true,
+      "block6" : true,
+      "block7" : true,
+      "block8" : false,
+      "split" : true
+     },
+     "dsp1" : {
+      "block0" : false,
+      "block1" : true,
+      "block10" : true,
+      "block2" : true,
+      "block3" : false,
+      "block4" : false,
+      "block5" : false,
+      "block6" : true,
+      "block7" : true,
+      "block8" : true,
+      "block9" : false
+     }
+    },
+    "controllers" : {
+     "dsp0" : {
+      "block0" : {
+       "Drive" : {
+        "@fs_enabled" : false,
+        "@value" : 0.580
+       }
+      },
+      "block1" : {
+       "CloseThreshold" : {
+        "@fs_enabled" : false,
+        "@value" : -60.0
+       },
+       "OpenThreshold" : {
+        "@fs_enabled" : false,
+        "@value" : -55.0
+       }
+      },
+      "block2" : {
+       "Pedal" : {
+        "@fs_enabled" : false,
+        "@value" : 1.0
+       }
+      },
+      "block3" : {
+       "Pedal" : {
+        "@fs_enabled" : false,
+        "@value" : 1.0
+       }
+      },
+      "block4" : {
+       "Hi Gain" : {
+        "@fs_enabled" : false,
+        "@value" : -2.0
+       },
+       "Lo Gain" : {
+        "@fs_enabled" : false,
+        "@value" : -2.70
+       },
+       "Mid Gain" : {
+        "@fs_enabled" : false,
+        "@value" : 0.400002
+       }
+      },
+      "block5" : {
+       "Emphasis" : {
+        "@fs_enabled" : false,
+        "@value" : 0.090
+       },
+       "Gain" : {
+        "@fs_enabled" : false,
+        "@value" : 0.650
+       },
+       "Level" : {
+        "@fs_enabled" : false,
+        "@value" : 0.0
+       },
+       "Mix" : {
+        "@fs_enabled" : false,
+        "@value" : 0.690
+       },
+       "PeakReduction" : {
+        "@fs_enabled" : false,
+        "@value" : 0.240
+       }
+      },
+      "block6" : {
+       "Threshold" : {
+        "@fs_enabled" : false,
+        "@value" : -30.0
+       }
+      },
+      "block7" : {
+       "Drive" : {
+        "@fs_enabled" : false,
+        "@value" : 0.160
+       },
+       "Master" : {
+        "@fs_enabled" : false,
+        "@value" : 0.50
+       }
+      },
+      "block8" : {
+       "ChVol" : {
+        "@fs_enabled" : false,
+        "@value" : 0.760
+       },
+       "Drive" : {
+        "@fs_enabled" : false,
+        "@value" : 0.350
+       },
+       "Master" : {
+        "@fs_enabled" : false,
+        "@value" : 0.830
+       }
+      },
+      "join" : {
+       "A Level" : {
+        "@fs_enabled" : false,
+        "@value" : 0.0
+       },
+       "B Level" : {
+        "@fs_enabled" : false,
+        "@value" : 0.0
+       }
+      }
+     },
+     "dsp1" : {
+      "block0" : {
+       "Balance" : {
+        "@fs_enabled" : false,
+        "@value" : 0.80
+       },
+       "Width" : {
+        "@fs_enabled" : false,
+        "@value" : 0.0
+       }
+      },
+      "block1" : {
+       "HighFreq" : {
+        "@fs_enabled" : false,
+        "@value" : 2500.0
+       },
+       "HighGain" : {
+        "@fs_enabled" : false,
+        "@value" : 3.20
+       },
+       "LowFreq" : {
+        "@fs_enabled" : false,
+        "@value" : 82.0
+       },
+       "LowGain" : {
+        "@fs_enabled" : false,
+        "@value" : 3.50
+       },
+       "MidFreq" : {
+        "@fs_enabled" : false,
+        "@value" : 1800.0
+       },
+       "MidGain" : {
+        "@fs_enabled" : false,
+        "@value" : 1.90
+       }
+      },
+      "block2" : {
+       "HighCut" : {
+        "@fs_enabled" : false,
+        "@value" : 14000.0
+       },
+       "Level" : {
+        "@fs_enabled" : false,
+        "@value" : -18.0
+       },
+       "LowCut" : {
+        "@fs_enabled" : false,
+        "@value" : 100.0
+       },
+       "Mix" : {
+        "@fs_enabled" : false,
+        "@value" : 1.0
+       }
+      },
+      "block3" : {
+       "Threshold" : {
+        "@fs_enabled" : false,
+        "@value" : -64.0
+       }
+      },
+      "block4" : {
+       "Mix" : {
+        "@fs_enabled" : false,
+        "@value" : 0.350
+       }
+      },
+      "block5" : {
+       "Feedback" : {
+        "@fs_enabled" : false,
+        "@value" : 0.580
+       },
+       "Mix" : {
+        "@fs_enabled" : false,
+        "@value" : 0.250
+       },
+       "WowFlutter" : {
+        "@fs_enabled" : false,
+        "@value" : 0.270
+       }
+      },
+      "block6" : {
+       "Decay" : {
+        "@fs_enabled" : false,
+        "@value" : 0.0
+       },
+       "Mix" : {
+        "@fs_enabled" : false,
+        "@value" : 0.0
+       },
+       "Predelay" : {
+        "@fs_enabled" : false,
+        "@value" : 0.0510
+       }
+      }
+     }
+    }
+   }
+  }
+ },
+ "meta" : {
+  "original" : 0,
+  "pbn" : 0,
+  "premium" : 0
+ },
+ "schema" : "L6Preset",
+ "version" : 6
+}
